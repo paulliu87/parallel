@@ -2,7 +2,7 @@
 $(document).ready(function() {
 	var box = $('a-box');
 	var button = $("#button");
-
+	console.log("js worked");
 	// Add event listener with `addEventListener`.
 	console.log("hello");
 	$('#button').on('click', function (e) {
