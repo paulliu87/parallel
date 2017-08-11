@@ -1,6 +1,7 @@
 // var sceneEl = document.querySelector('a-scene');
+var box
 $(document).ready(function() {
-	var box = $('a-box');
+	box = $('a-box');
 	var button = $("#button");
 	console.log("js worked");
 	// Add event listener with `addEventListener`.
@@ -19,6 +20,7 @@ $(document).ready(function() {
 	// Add event listener with `addEventListener`.
 	box.on('click', function () {
 	  // Modify entity with `setAttribute`.
-	  	box.setAttribute('color', 'green');
+	  	box.attr('color', 'green');
+	  	console.log("clicked!");
 	});
 })

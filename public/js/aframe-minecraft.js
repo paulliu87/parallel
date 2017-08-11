@@ -46,7 +46,7 @@ AFRAME.registerComponent('minecraft', {
 		// this.el.setObject3D('superRoot', character.root);
 	},
 	update: function () {
-                if( Object.keys(this.data).length === 0 )       return
+        if( Object.keys(this.data).length === 0 )       return
 		var character = this.character
 		character.root.scale.set(1,1,1).multiplyScalar(this.data.heightMeter)
 		
